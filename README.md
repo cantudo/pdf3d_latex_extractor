@@ -13,3 +13,6 @@ The .vws and .prc found will be written to the current working directory.
 
 # OS
 Tested on Linux and Windows, should also work on Mac. 
+
+# TODO
+Add examples
