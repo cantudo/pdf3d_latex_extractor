@@ -407,23 +407,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "extract_prc"
-version = "0.1.0"
-dependencies = [
- "adobe-cmap-parser",
- "clap",
- "encoding",
- "euclid",
- "linked-hash-map",
- "lopdf",
- "pdf",
- "postscript",
- "shellexpand",
- "type1-encoding-parser",
- "unicode-normalization",
-]
-
-[[package]]
 name = "fax"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -665,6 +648,23 @@ dependencies = [
  "snafu",
  "stringprep",
  "weezl",
+]
+
+[[package]]
+name = "pdf3d_latex_extractor"
+version = "0.1.0"
+dependencies = [
+ "adobe-cmap-parser",
+ "clap",
+ "encoding",
+ "euclid",
+ "linked-hash-map",
+ "lopdf",
+ "pdf",
+ "postscript",
+ "shellexpand",
+ "type1-encoding-parser",
+ "unicode-normalization",
 ]
 
 [[package]]
